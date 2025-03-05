@@ -15,6 +15,12 @@ public class FinalModifier {
 		System.out.println(val1 +" :: "+ fm.val2 +" :: "+ val3);
 		
 		fm.displayName("Inside method A", "Inside method A");
+		
+		
+		FinalModifer fm1 = new FinalModifer();
+		fm1.printFinalValue();
+		
+		
 
 	}
 	
